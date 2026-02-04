@@ -41,7 +41,7 @@ const Navbar = () => {
                     <Link
                       data-slot="navigation-menu-link"
                       className="flex items-center gap-1.5 p-2 transition-all outline-none px-4 py-2 text-base font-medium hover:text-black dark:hover:text-black hover:bg-white rounded-3xl dark:text-white focus:bg-white focus:text-black bg-transparent"
-                      href={`/#${item.toLowerCase()}`}
+                      href={`/${item.toLowerCase()}`}
                     >
                       {item}
                     </Link>
