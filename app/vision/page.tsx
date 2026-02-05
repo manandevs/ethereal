@@ -24,10 +24,10 @@ const StarIcon = ({ className }: SparkleProps) => (
 
 export default function VisionPage() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen overflow-hidden">
       <Navbar />
 
-      <section className="relative w-full min-h-screen flex items-center justify-center overflow-hidden pt-20 pb-20">
+      <section className="relative w-full min-h-screen flex items-center justify-center pt-20 pb-20">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[300px] bg-amber-500 rounded-full blur-[120px] opacity-60 pointer-events-none" />
 
         <div className="container relative z-10 mx-auto px-4">
@@ -97,7 +97,7 @@ export default function VisionPage() {
           />
 
           <div className="absolute inset-0 p-6 md:p-10 flex flex-col justify-between text-black">
-            <div className="hidden md:block absolute top-24 right-10 max-w-xs text-right">
+            <div className="hidden md:block absolute top-24 right-10 max-w-md text-right backdrop-blur-2xl rounded-2xl py-4 px-6">
               <span className="uppercase tracking-widest mb-2">
                 (A Few Words About)
               </span>
